@@ -1,0 +1,108 @@
+#flex-white {
+    display: flex;
+    box-sizing: border-box;
+
+}
+.press-white {
+    position: static;
+    z-index: 1;
+    border: 1px solid black;
+    width: 10%;
+    height: 500px;
+}
+.press-white:active {
+    box-shadow: inset -5px -5px 10px;
+}
+
+/* #first-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#second-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#third-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#fourth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#fifth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#sixth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#seventh-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#eighth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#ninth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#tenth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#eleventh-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#twelvth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#thirteenth-white:active {
+    box-shadow:inset -5px -5px 10px;
+}
+#fourteenth-white:active {
+    box-shadow:inset -5px -5px 10px;
+} */
+
+
+#flex-black {
+    display: flex;
+    box-sizing: border-box;
+}
+.press-black {
+    justify-content: space-between;
+    background-color: black;
+    /* box-shadow: 5px 5px 10px black,-5px -5px 10px black; */
+    position: relative;
+    z-index: 2;
+    bottom: 502px;
+    border: 1px solid black;
+    width: 5%;
+    height: 300px;
+}
+.press-black:active {
+    box-shadow: -5px -5px 10px grey, 5px 5px 10px green;
+}
+#first {
+    margin-left: 60px;
+}
+#second {
+    margin-left: 30px;
+}
+#third {
+    margin-left: 120px;
+}
+#fourth {
+    margin-left: 30px;
+}
+#fifth {
+    margin-left: 30px;
+}
+#sixth {
+    margin-left: 120px;
+}
+#seventh {
+    margin-left: 30px;
+}
+#eighth {
+    margin-left: 120px;
+}
+#ninth {
+    margin-left: 30px;
+}
+#tenth {
+    margin-left: 30px;
+}
